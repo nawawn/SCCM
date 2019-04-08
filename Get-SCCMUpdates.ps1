@@ -36,7 +36,6 @@ Process{
     }
     #>
 
-    Get-WmiObject @WmiParam | Select-Object -Property $Property
-           
+    Get-WmiObject @WmiParam | Select-Object -Property $Property           
 }
 End { }
