@@ -16,7 +16,8 @@ Process{
     $Property = @(
         @{n='ComputerName';e={$ComputerName}},
         'ArticleID',
-        'IsUpgrade',        
+        'IsUpgrade',
+        'Deadline',        
         'Name',
         'URL'
     )
