@@ -1,6 +1,6 @@
 ﻿<#
 .Synopsis
-   Run Query on SCCM Server
+   Run the Query on SCCM Server
 .DESCRIPTION
    Run the WMI query on SCCM Server with the given SELECT STATEMENT query
 .EXAMPLE
