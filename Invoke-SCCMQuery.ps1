@@ -29,5 +29,6 @@ Param(
     $Query
 )
 
+#Using WMI Object and Server Name
 $NameSpace = "root/SMS/Site_" + $SiteName
 Get-WmiObject -Namespace $NameSpace -ComputerName $ServerName -Query $Query
